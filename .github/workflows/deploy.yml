@@ -1,0 +1,31 @@
+name: Deploy
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - '**.md'
+      - '.gitignore'
+
+jobs:
+  build:
+    runs-on: self-hosted
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'yarn'
+    - name: Installing all dependencies.
+      run: yarn
+    - name: Delete build folder.
+      run: rm -rf dist
+    - name: Build Project.
+      run: CI='' yarn build
+    - name: Delete folder of production build.
+      run: sudo rm -rf /var/www/lc.web
+    - name: Copy build to production.
+      run: sudo cp -R dist /var/www/lc.web
