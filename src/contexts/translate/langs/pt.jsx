@@ -43,6 +43,10 @@ export default {
             }
         ]
     },
+    work: {
+        title: "Etapas de Produção.",
+        description: ""
+    },
     tecnology: {
         title: 'Temos todas as competências que serão úteis na implementação do seu projeto:'
     }

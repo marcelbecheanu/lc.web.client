@@ -43,6 +43,10 @@ export default {
             }
         ]
     },
+    work: {
+        title: "Production Steps.",
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, dolorem quo similique, facilis sed eligendi impedit, omnis officiis reprehenderit nobis et quasi minus voluptas qui aspernatur! Possimus numquam deleniti necessitatibus."
+    },
     tecnology: {
         title: 'We have all the competences, that will be useful in implementing your project:',
     }
