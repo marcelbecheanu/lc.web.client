@@ -12,7 +12,7 @@ export default {
     },
     team: {
         title: 'Equipas dividem tarefas e obtêm sucesso.',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos nulla quis laborum in placeat earum tempora mollitia vel! ',
+        description: 'Connosco encontra a solidez de uma equipa profissional para trabalhar nas mais recentes tecnologias, capaz de desenvolver uma solução criativa à medida da sua empresa, quer seja através do desenvolvimento de soluções web ou de projetos sob medida. ',
         checks: [
             "Sonhos e equipas trabalham juntos.",
             "As equipas realizam sonhos e muito mais."
@@ -45,7 +45,10 @@ export default {
     },
     work: {
         title: "Etapas de Produção.",
-        description: ""
+        description: [
+            "Desde sempre que a tecnologia é o empurrão necessário para vários negócios avançarem. Utilizamos as mais modernas e ágeis metodologias para controlar o seu projeto o criamos e o mantemos de forma eficiente.",
+            "A criação de um projeto passa primeiro pelo planeamento, criação da interface, desenvolvimento, testes, o review onde o cliente deve indicar alteração a serem feitas e por fim o lançamento do projeto. "
+        ]
     },
     tecnology: {
         title: 'Temos todas as competências que serão úteis na implementação do seu projeto:'

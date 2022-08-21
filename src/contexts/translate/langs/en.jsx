@@ -12,7 +12,7 @@ export default {
     },
     team: {
         title: 'Teams divide tasks and receive success.',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos nulla quis laborum in placeat earum tempora mollitia vel! Dolore voluptatum necessitatibus ex quaerat? ',
+        description: 'aaa',
         checks: [
             "Dreams and teams work together.",
             "Teams make dreams and more."

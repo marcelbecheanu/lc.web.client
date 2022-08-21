@@ -2,9 +2,9 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Team from '../../components/Team';
-import Work from '../../components/Work';
-
 import Services from '../../components/Services'
+import Work from '../../components/Work';
+import Contacts from '../../components/Contacts';
 
 import { Wrapper } from './style';
 
@@ -18,6 +18,7 @@ function Landing() {
         <Team/>
         <Services/>
         <Work/>
+        <Contacts/>
       </Wrapper>
       <Footer/>
     </>
