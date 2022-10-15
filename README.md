@@ -1,1 +1,1 @@
-# lc.web.client
+# Light Code - Landing Page
