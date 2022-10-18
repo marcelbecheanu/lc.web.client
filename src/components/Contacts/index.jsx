@@ -7,6 +7,7 @@ function Contacts() {
      <section>
       Estamos em construção!
       +351 964770743
+      <br/>
       commercial@lightcode.pt
      </section>
     </Wrapper>

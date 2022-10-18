@@ -8,6 +8,8 @@ const Wrapper = styled.article`
     
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
     > section {
         width: 75%;
