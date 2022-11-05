@@ -5,6 +5,9 @@ import Team from '../../components/Team';
 import Services from '../../components/Services';
 import Technologies from '../../components/Technologies';
 import Work from '../../components/Work';
+
+import Details from '../../components/Details';
+
 import Contacts from '../../components/Contacts';
 
 import { Wrapper } from './style';
@@ -20,6 +23,7 @@ function Landing() {
         <Team/>
         <Services/>
         <Work/>
+        <Details/>
         <Contacts/>
       </Wrapper>
       <Footer/>
