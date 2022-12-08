@@ -6,13 +6,13 @@ export default {
         ]
     },
     header: {
-        title: 'Código que enriquece o seu negocio.',
+        title: 'O código que impulsiona o seu negócio.',
         description: 'Temos as mais avançadas tecnologias para apresentar soluções à medida do seu negocio.',
         button: 'SABER MAIS',
     },
     team: {
-        title: 'Equipas dividem tarefas e obtêm sucesso.',
-        description: 'Connosco encontra a solidez de uma equipa profissional para trabalhar nas mais recentes tecnologias, capaz de desenvolver uma solução criativa à medida da sua empresa, quer seja através do desenvolvimento de soluções web ou de projetos sob medida. ',
+        title: 'Equipe experiente oferece soluções de alta qualidade.',
+        description: 'Nossa equipe de profissionais experientes tem um profundo conhecimento das tecnologias e tendências mais recentes do setor, e estamos comprometidos em fornecer soluções de alta qualidade, confiáveis ​​e escaláveis ​​que atendam às necessidades exclusivas de cada um de nossos clientes.',
         checks: [
             "Sonhos e equipas trabalham juntos.",
             "As equipas realizam sonhos e muito mais."
